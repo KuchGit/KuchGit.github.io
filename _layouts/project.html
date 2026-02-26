@@ -1,0 +1,46 @@
+---
+layout: default
+---
+<div class="page-content">
+  <h1 class="page-title">{{ page.title }}</h1>
+
+  <div class="project-meta" style="margin-bottom:1.5rem;">
+    {% if page.status == "actif" %}
+    <span class="project-tag" style="background:#d4edda;color:#155724;">En cours</span>
+    {% else %}
+    <span class="project-tag" style="background:#e2e3e5;color:#383d41;">Terminé</span>
+    {% endif %}
+
+    {% for tag in page.tags %}
+    <span class="project-tag">{{ tag }}</span>
+    {% endfor %}
+  </div>
+
+  {% if page.funding %}
+  <p style="font-size:0.85rem;color:#666;margin-bottom:1.5rem;">
+    <strong>Financement :</strong> {{ page.funding }}
+  </p>
+  {% endif %}
+
+  <div class="project-body">
+    {{ content }}
+  </div>
+
+  {% if page.external_url or page.github or page.paper %}
+  <div class="pub-links" style="margin-top:2rem;padding-top:1rem;border-top:1px solid #eee;">
+    {% if page.external_url %}
+    <a class="pub-link" href="{{ page.external_url }}" target="_blank" rel="noopener">Site web</a>
+    {% endif %}
+    {% if page.github %}
+    <a class="pub-link" href="{{ page.github }}" target="_blank" rel="noopener">GitHub</a>
+    {% endif %}
+    {% if page.paper %}
+    <a class="pub-link" href="{{ page.paper }}">Article</a>
+    {% endif %}
+  </div>
+  {% endif %}
+
+  <p style="margin-top:2rem;font-size:0.83rem;">
+    ← <a href="{{ '/projects/' | relative_url }}">Retour aux projets</a>
+  </p>
+</div>

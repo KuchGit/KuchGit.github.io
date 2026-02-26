@@ -39,6 +39,12 @@ nav:
   - label: "Projets"
     url: "/projects/"
 
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+
 # Jekyll
 markdown: kramdown
 permalink: pretty

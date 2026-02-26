@@ -60,12 +60,11 @@ layout: default
 
     <h2>Projets en cours</h2>
     <ul class="project-list">
-      {% assign featured = site.data.projects | where: "featured", true | slice: 0, 2 %}
+      {% assign featured = site.projects | where: "featured", true | slice: 0, 2 %}
       {% for project in featured %}
       <li class="project-item">
         <div class="project-title">
-          {% if project.url %}<a href="{{ project.url }}">{{ project.title }}</a>
-          {% else %}{{ project.title }}{% endif %}
+          <a href="{{ project.url | relative_url }}">{{ project.title }}</a>
         </div>
         <p class="project-desc">{{ project.description }}</p>
         <div class="project-tags">
