@@ -1,29 +1,29 @@
-title: "Prénom Nom"
-description: "Chercheur en [domaine] — Institution"
+title: "Dr Florentin Kucharczak"
+description: "Ingénieur, PhD, MD — Chercheur en imagerie médicale — CHU & Université de Montpellier"
 baseurl: ""
-url: "https://username.github.io"
+url: "https://kuchgit.github.io"
 
 # Informations personnelles
 author:
-  name: "Prénom Nom"
-  title: "Maître de conférences / Chercheur"
-  institution: "Université de ..."
-  department: "Département de ..."
-  email: "prenom.nom@institution.fr"
+  name: "Dr Florentin Kucharczak"
+  title: "Ingénieur, PhD, MD — Docteur junior"
+  institution: "CHU de Montpellier / Université de Montpellier"
+  department: "Médecine Nucléaire — LIRMM (équipe Image & Interaction)"
+  email: "f.kucharczak@pm.me"
   bio: >
-    Je suis chercheur en [domaine] à [institution].
-    Mes travaux portent sur [thèmes de recherche].
-    Je m'intéresse notamment à [intérêts spécifiques].
+    Ingénieur (Télécom Physique Strasbourg, 2014), docteur en traitement du signal
+    (Université de Montpellier, 2019) et docteur en médecine (2025), je suis actuellement
+    interne en santé publique (orientation biostatistiques) et chercheur collaborateur au
+    LIRMM (équipe Image & Interaction). Mes travaux portent sur la quantification en TEP,
+    la reconstruction d'images par intervalles, et le TEP fonctionnel appliqué aux troubles
+    de la conscience. Lauréat du prix de thèse SFGBM / IEEE-EMBS France 2019. SIGAPS : 202.
   links:
-    - label: "Google Scholar"
-      icon: "scholar"
-      url: "https://scholar.google.com/citations?user=XXXXX"
     - label: "GitHub"
       icon: "github"
-      url: "https://github.com/username"
-    - label: "ORCID"
-      icon: "orcid"
-      url: "https://orcid.org/0000-0000-0000-0000"
+      url: "https://github.com/KuchGit"
+    - label: "imagodocet.com"
+      icon: "web"
+      url: "https://imagodocet.com"
     - label: "CV (PDF)"
       icon: "cv"
       url: "/assets/cv.pdf"

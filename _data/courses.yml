@@ -1,28 +1,24 @@
-# Liste des cours
+# Enseignements de Florentin Kucharczak
 # Champs disponibles : title, level, institution, year, hours, description, url, slides, notes, code, video
 
-- title: "Introduction à [Domaine]"
-  level: "Licence 3"
-  institution: "Université de ..."
+- title: "Pédagogie médicale et formation à la communication — DU"
+  level: "Diplôme Universitaire"
+  institution: "Faculté de médecine Montpellier-Nîmes"
   year: 2025
-  hours: 24
-  description: "Cours d'introduction couvrant les fondements de [domaine] : théorie, algorithmes, applications."
-  slides: "/assets/courses/intro-domaine-slides.pdf"
-  notes: "/assets/courses/intro-domaine-notes.pdf"
+  description: >
+    Développement du logiciel imagodocet.com : simulation interactive d'interprétation
+    en imagerie médicale. Lauréat de la bourse pédagogique du Collège des enseignants
+    de biophysique et médecine nucléaire (CEBMN, 4 500 €, 2025), conjointement
+    avec le Dr Tom Paunet.
+  url: "https://imagodocet.com"
 
-- title: "Séminaire avancé en [Sujet]"
-  level: "Master 2"
-  institution: "Université de ..."
-  year: 2025
-  hours: 18
-  description: "Séminaire de recherche explorant les dernières avancées en [sujet]."
-  slides: "https://github.com/username/seminaire-sujet"
-
-- title: "Atelier pratique : [Outil/Méthode]"
+- title: "Traitement du signal et des images — Master 1 EEA"
   level: "Master 1"
-  institution: "École d'été / Formation continue"
-  year: 2024
-  hours: 6
-  description: "Atelier hands-on sur l'utilisation de [outil] pour [application]."
-  code: "https://github.com/username/atelier-outil"
-  video: "https://youtube.com/watch?v=xxxxx"
+  institution: "Université de Montpellier"
+  year: 2018
+  hours: 97
+  description: >
+    Enseignements de vacation réalisés de 2015 à 2018 en Master 1 Électronique,
+    Énergie électrique et Automatique (EEA) : projet C / OpenGL (21 h),
+    travaux pratiques Matlab (61 h), travaux dirigés de traitement du signal (6 h),
+    travaux pratiques de traitement d'images (9 h).

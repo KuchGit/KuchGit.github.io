@@ -1,32 +1,73 @@
-# Liste des projets
+# Projets de recherche de Florentin Kucharczak
 # Champs disponibles : title, description, status (actif | terminé), featured, funding,
 #                      tags, url, github, paper, demo
 
-- title: "Nom du projet A"
+# ── Projets actifs ───────────────────────────────────────────────────────────
+
+- title: "Imagerie cérébrale fonctionnelle et troubles de la conscience — GIGA Neurorecovery Lab"
   description: >
-    Description concise du projet A : objectifs, approche, résultats attendus.
-    Ce projet vise à [objectif] en utilisant [méthode].
+    Mobilité scientifique (2025-2026) au GIGA Neurorecovery Lab (ULiège / CHU de Liège,
+    Pr Thibault). Développement et validation d'un pipeline d'analyse pour le traitement
+    de données d'imagerie cérébrale fonctionnelle statique et dynamique, avec applications
+    au diagnostic et au pronostic des patients neuro-lésés avec troubles de la conscience.
   status: "actif"
   featured: true
-  funding: "ANR / ERC / Labex ..."
-  tags: [Machine Learning, NLP, Python]
-  github: "https://github.com/username/projet-a"
-  paper: "#"
+  funding: "Bourse d'excellence Wallonie-Bruxelles International (WBI) — 12 mois"
+  tags: [TEP fonctionnel, Imagerie cérébrale, Troubles de la conscience, Pipeline]
 
-- title: "Nom du projet B"
+- title: "APEMAV-NR"
   description: >
-    Description concise du projet B. Collaboration avec [partenaires].
+    Étude exploratoire des altérations perfusionnelles et métaboliques cérébrales
+    et troubles neurocognitifs dans une cohorte prospective de patients présentant
+    des malformations artério-veineuses (MAV) non rompues, avant et après prise en
+    charge interventionnelle. Projet co-porté avec le département de neurochirurgie
+    du CHU de Montpellier.
   status: "actif"
   featured: true
-  tags: [Vision par ordinateur, PyTorch]
-  github: "https://github.com/username/projet-b"
-  demo: "https://demo.exemple.fr"
+  funding: "Projet tremplin CHU Montpellier — 13 000 €"
+  tags: [TEP, Perfusion cérébrale, MAV, Neurochirurgie]
 
-- title: "Ancien projet C"
+- title: "imagodocet.com"
   description: >
-    Projet terminé ayant abouti à [résultats]. Code et données disponibles en ligne.
+    Logiciel de simulation d'interprétation en imagerie médicale, développé dans le
+    cadre d'un Diplôme Universitaire de pédagogie médicale. Destiné à la formation
+    des étudiants en médecine et en médecine nucléaire. Soutenu par une bourse
+    pédagogique du CEBMN (conjointement avec le Dr Tom Paunet).
+  status: "actif"
+  featured: true
+  funding: "Bourse pédagogique CEBMN — 4 500 €"
+  tags: [Pédagogie, Imagerie médicale, Simulation, Web]
+  url: "https://imagodocet.com"
+
+# ── Projets terminés ─────────────────────────────────────────────────────────
+
+- title: "fTEP-COMA"
+  description: >
+    Développement d'outils informatiques et de procédures d'injection de radiotraceur
+    spécifiques à l'acquisition de protocoles expérimentaux de TEP fonctionnelle.
+    Application à l'étude de l'activation neuronale et au pronostic des comas.
   status: "terminé"
   featured: false
-  tags: [Statistiques, R, Open Data]
-  github: "https://github.com/username/projet-c"
-  paper: "https://doi.org/10.xxxx/xxxxx"
+  funding: "Projet tremplin CHU Montpellier — 10 000 €"
+  tags: [TEP fonctionnel, Coma, Neurologie, Radiotraceur]
+
+- title: "CRANE"
+  description: >
+    Comparaison Robuste des Activités reconstruites dans le cadre des diagnostics de
+    maladies NEurodégénératives. Post-doctorat financé dans le cadre d'un AAP LABEX-NUMEV,
+    sous la supervision du Pr Olivier Strauss (Université de Montpellier, LIRMM).
+  status: "terminé"
+  featured: false
+  funding: "Bourse post-doctorale LabEx NUMEV — 4 mois"
+  tags: [TEP, Maladies neurodégénératives, Reconstruction, Intervalles]
+
+- title: "TEP dynamique et hémorragie sous-arachnoïdienne"
+  description: >
+    Développement d'outils de TEP dynamique et étude de son intérêt pronostic dans
+    l'ischémie retardée chez les patients victimes d'hémorragies sous-arachnoïdiennes.
+    Mené en collaboration avec le service de neuro-réanimation du CHU Gui de Chauliac
+    (Dr Szabo, Dr Chalard). Collaboration toujours en cours.
+  status: "terminé"
+  featured: false
+  funding: "Poste d'assistant associé des universités (CHU Montpellier, 2019-2020)"
+  tags: [TEP dynamique, Hémorragie sous-arachnoïdienne, Pronostic, Neuro-réanimation]
