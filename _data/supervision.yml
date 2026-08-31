@@ -1,0 +1,20 @@
+# Encadrements de Florentin Kucharczak
+# Champs : name, year, level, topic, institution, report (chemin PDF), co_supervisor
+
+- name: "Thomas Paunet"
+  year: 2022
+  level: "Master 2"
+  topic: "Imagerie TEP fonctionnelle dans l'évaluation des troubles de la conscience"
+  institution: "Université de Montpellier"
+
+- name: "Juliette Sagnes"
+  year: 2022
+  level: "Master 2"
+  topic: "Évaluation des capacités diagnostiques du TEP-FDG dans le dépistage du cancer chez le transplanté cardiaque"
+  institution: "Université de Montpellier"
+
+- name: "Juliette Dubois"
+  year: 2024
+  level: "Stage"
+  topic: "TEP-FDG dans l'astrocytopathie à GFAP : rapport de cas"
+  institution: "CHU de Montpellier"
