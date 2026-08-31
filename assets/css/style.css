@@ -394,3 +394,58 @@ a:hover { color: var(--color-accent-hover); text-decoration: underline; }
   color: var(--color-muted);
   margin-bottom: 2rem;
 }
+
+/* ============================================================
+   Supervision table
+   ============================================================ */
+.supervision-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+  margin-top: 1rem;
+}
+
+.supervision-table th {
+  text-align: left;
+  padding: 0.4rem 0.7rem;
+  border-bottom: 2px solid var(--color-border);
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-muted);
+  font-weight: 600;
+}
+
+.supervision-table td {
+  padding: 0.55rem 0.7rem;
+  border-bottom: 1px solid var(--color-border);
+  vertical-align: top;
+}
+
+.supervision-table tr:last-child td {
+  border-bottom: none;
+}
+
+.co-sup {
+  display: block;
+  font-size: 0.78rem;
+  color: var(--color-muted);
+  margin-top: 0.15rem;
+}
+
+.btn-small {
+  display: inline-block;
+  font-size: 0.75rem;
+  padding: 0.1rem 0.45rem;
+  border: 1px solid var(--color-accent);
+  border-radius: 3px;
+  color: var(--color-accent);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.btn-small:hover {
+  background: var(--color-accent);
+  color: #fff;
+}
+
