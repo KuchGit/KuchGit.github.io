@@ -10,8 +10,9 @@
 
 - title: "Spatiotemporal dynamics of computed tomography perfusion (CTP) parameters following aneurysmal subarachnoid hemorrhage"
   authors: "Szabo V, Mesnildrey Q, Dargazanli C, Kucharczak F, et al."
-  venue: "Journal of Cerebral Blood Flow & Metabolism"
-  year: 2025
+  venue: "Journal of Cerebral Blood Flow & Metabolism, 46(1):91–104"
+  year: 2026
+  doi: "https://doi.org/10.1177/0271678X251361254"
 
 - title: "[18F]-FDG PET as a Diagnostic and Monitoring Tool in Autoimmune Glial Fibrillary Acidic Protein Astrocytopathy: A Case Report"
   authors: "Dubois J, Paunet T, Verbeke S, Kucharczak F, Vauchot F"
@@ -20,23 +21,27 @@
 
 - title: "CT perfusion-guided administration of IV milrinone is associated with a reduction in delayed cerebral infarction after subarachnoid hemorrhage"
   authors: "Szabo V, Baccialone S, Kucharczak F, Dargazanli C, et al."
-  venue: "Scientific Reports"
+  venue: "Scientific Reports, 14:14856"
   year: 2024
+  doi: "https://doi.org/10.1038/s41598-024-65706-w"
 
 - title: "Comparing two bootstrapped regions in images: the D-test"
   authors: "Kucharczak F, Couso I, Strauss O, Mariano-Goulart D"
   venue: "IRBM, vol. 45, no. 1"
   year: 2024
+  doi: "https://doi.org/10.1016/j.irbm.2024.100821"
 
 - title: "Evaluation of 18-FDG PET diagnostic capabilities for cancer screening in heart transplant patients, a retrospective study"
   authors: "Sagnes J, Paunet T, Battistella P, Mariano-Goulart D, Kucharczak F"
   venue: "Medicine (Baltimore), 102(39)"
   year: 2023
+  doi: "https://doi.org/10.1097/MD.0000000000035296"
 
 - title: "Functional PET Neuroimaging in Consciousness Evaluation: Study Protocol"
   authors: "Paunet T, Mariano-Goulart D, Deverdun J, Le Bars E, Fourcade M, Kucharczak F"
-  venue: "Diagnostics, 13(12)"
+  venue: "Diagnostics, 13(12):2026"
   year: 2023
+  doi: "https://doi.org/10.3390/diagnostics13122026"
 
 - title: "Giant cell arteritis presenting with progressive dysphagia and tongue necrosis"
   authors: "Payen C, Kucharczak F, Favier V"
@@ -48,11 +53,13 @@
   authors: "Ben Bouallègue F, Maïmoun L, Kucharczak F, et al."
   venue: "Journal of Nuclear Cardiology, 28(2):594–603"
   year: 2021
+  doi: "https://doi.org/10.1007/s12350-019-01731-x"
 
 - title: "Brain 18F-FDG PET analysis via interval-valued reconstruction: proof of concept for Alzheimer's disease diagnosis"
   authors: "Kucharczak F, Suau M, Strauss O, Ben Bouallègue F, Mariano-Goulart D"
   venue: "Annals of Nuclear Medicine, 34(8):565–574"
   year: 2020
+  doi: "https://doi.org/10.1007/s12149-020-01490-7"
 
 - title: "Interval-based reconstruction for uncertainty quantification in PET"
   authors: "Kucharczak F, Ben Bouallègue F, Strauss O, Mariano-Goulart D"
@@ -63,6 +70,7 @@
   authors: "Kucharczak F, Loquin K, Buvat I, Strauss O, Mariano-Goulart D"
   venue: "Physics in Medicine & Biology, 63(3):035014"
   year: 2018
+  doi: "https://doi.org/10.1088/1361-6560/aa9ea6"
 
 # ── Chapitres de livres ──────────────────────────────────────────────────────
 
