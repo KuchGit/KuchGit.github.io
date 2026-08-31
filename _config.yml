@@ -14,9 +14,9 @@ author:
     Ingénieur (Télécom Physique Strasbourg, 2014), docteur en traitement du signal
     (Université de Montpellier, 2019), titulaire d'un master en biostatistiques (2024) et docteur en médecine (2025), je suis actuellement
     interne en santé publique (orientation biostatistiques) et chercheur associé au
-    LIRMM (équipe ICAR - Image & Interaction). Mes travaux portent sur la quantification en tomographie par emission de positons (TEP) avec un intérêt particulier 
+    LIRMM (équipe ICAR - Image & Interaction). Mes travaux portent sur la quantification en tomographie par emission de positons (TEP) avec un intérêt particulier
     porté sur le diagnostic et le pronostic notamment des troubles
-    de la conscience. 
+    de la conscience.
   links:
     - label: "GitHub"
       icon: "github"
@@ -34,6 +34,8 @@ nav:
     url: "/"
   - label: "Publications"
     url: "/publications/"
+  - label: "Encadrement"
+    url: "/supervision/"
   - label: "Cours"
     url: "/teaching/"
   - label: "Projets"
