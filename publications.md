@@ -5,14 +5,15 @@ description: Articles, chapitres d'ouvrages et actes de conférences.
 permalink: /publications/
 ---
 
-{% assign journals = site.data.publications | where_exp: "p", "p.type != 'book_chapter' and p.type != 'conference'" | sort: "year" | reverse %}
+{% assign pubs_sorted = site.data.publications | sort: "year" | reverse %}
 {% assign chapters = site.data.publications | where: "type", "book_chapter" | sort: "year" | reverse %}
 {% assign conferences = site.data.publications | where: "type", "conference" | sort: "year" | reverse %}
 
 <section class="pub-section">
 <h2 class="pub-section-title">Revues scientifiques à comité de lecture</h2>
 <ul class="pub-list">
-  {% for pub in journals %}
+  {% for pub in pubs_sorted %}
+  {% unless pub.type == "book_chapter" or pub.type == "conference" %}
   <li class="pub-item">
     <div class="pub-body">
       <div class="pub-title">{{ pub.title }}</div>
@@ -28,6 +29,7 @@ permalink: /publications/
       </div>
     </div>
   </li>
+  {% endunless %}
   {% endfor %}
 </ul>
 </section>
