@@ -36,7 +36,7 @@ nav:
     url: "/publications/"
   - label: "Encadrement"
     url: "/supervision/"
-  - label: "Cours"
+  - label: "Enseignement"
     url: "/teaching/"
   - label: "Projets"
     url: "/projects/"

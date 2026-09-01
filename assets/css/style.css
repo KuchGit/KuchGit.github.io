@@ -396,6 +396,64 @@ a:hover { color: var(--color-accent-hover); text-decoration: underline; }
 }
 
 /* ============================================================
+   Publications sections
+   ============================================================ */
+.pub-section {
+  margin-bottom: 2.5rem;
+}
+
+.pub-section-title {
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--color-muted);
+  border-bottom: 1px solid var(--color-border);
+  padding-bottom: 0.4rem;
+  margin-bottom: 1rem;
+}
+
+/* ============================================================
+   Teaching materials grid
+   ============================================================ */
+.materials-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.material-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  padding: 0.7rem 1rem;
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  text-decoration: none;
+  color: var(--color-text);
+  background: var(--color-surface, #f8f8f8);
+  min-width: 180px;
+  max-width: 260px;
+  transition: border-color 0.15s;
+}
+
+.material-card:hover {
+  border-color: var(--color-accent);
+  color: var(--color-accent);
+}
+
+.material-label {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.material-course {
+  font-size: 0.78rem;
+  color: var(--color-muted);
+}
+
+/* ============================================================
    Supervision table
    ============================================================ */
 .supervision-table {
@@ -448,4 +506,3 @@ a:hover { color: var(--color-accent-hover); text-decoration: underline; }
   background: var(--color-accent);
   color: #fff;
 }
-

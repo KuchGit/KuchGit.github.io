@@ -1,5 +1,6 @@
 # Enseignements de Florentin Kucharczak
 # Champs disponibles : title, level, institution, year, hours, description, url, slides, notes, code, video
+# Champ materials : liste de { label, url, type } pour les supports pédagogiques
 
 - title: "Pédagogie médicale et formation à la communication — DU"
   level: "Diplôme Universitaire"
@@ -11,6 +12,10 @@
     de biophysique et médecine nucléaire (CEBMN, 4 500 €, 2025), conjointement
     avec le Dr Tom Paunet.
   url: "https://imagodocet.com"
+  materials:
+    - label: "imagodocet.com"
+      url: "https://imagodocet.com"
+      type: "Logiciel interactif"
 
 - title: "Traitement du signal et des images — Master 1 EEA"
   level: "Master 1"
